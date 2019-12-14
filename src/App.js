@@ -10,7 +10,11 @@ function App() {
   //RENDER
   return (
     <div className="App">
-      <header className="App-header" onMouseEnter={()=> setTitleColor('red')} onMouseLeave={()=>{ setTitleColor('black')}}>
+      {/* HEADER */}
+      <header className="App-header" 
+          onMouseEnter={()=> setTitleColor('red')} 
+          onMouseLeave={()=>{ setTitleColor('black')}}>
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -23,10 +27,14 @@ function App() {
         >
           Learn React
         </a>
+
       </header>
+
       <body>
+        {/* BODY */}
         <div className="frontPage" style={{color:titleColor}} >
-         --  Welcome Ozaa and Ghoster to the front page!
+          <p>--  Welcome Ozaa and Ghoster to the front page!</p>
+          {titleColor === 'red' ? <p>"Where Shit Magic Happens!"</p> : ""}
         </div>
       </body>
     </div>
