@@ -30,13 +30,35 @@ function App() {
 
       </header>
 
-      <body>
+      <div>
         {/* BODY */}
         <div className="frontPage" style={{color:titleColor}} >
           <p>--  Welcome Ozaa and Ghoster to the front page!</p>
           {titleColor === 'red' ? <p>"Where Shit Magic Happens!"</p> : ""}
+        
+        
+          <div style={{display: 'flex', flex:1, flexDirection: 'row',}}>
+            {/* SANDBOX */}
+            <div style={{width:'50vw',height:'60vh', backgroundColor:'lightgreen'}}>
+              {/* OZAA'S BOX */}
+              <h1>Ozza Box</h1>
+              {/* TRY TO SEPERATE THIS BOX INTO TWO COLUMNS AND MAKE A LIST OF COLORS THAT WHEN YOU PRESS, */}
+              {/* THE OTHER COLUMN WILL CHANGE BACKGROUND COLOR TO THE NAME OF THE COLOR YOU PRESSED */}
+            </div>
+
+            <div style={{width:'50vw',height:'60vh', backgroundColor:'lightblue'}}>
+              {/* GHOSTS'S BOX */}
+              <h1>Ghost Box</h1>
+              {/* TRY SOME STUFF HERE */}
+
+              {/* </div> */}
+            </div>
+          </div>
+
         </div>
-      </body>
+
+
+      </div>
     </div>
   );
 }
