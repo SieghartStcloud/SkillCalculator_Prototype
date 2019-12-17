@@ -53,7 +53,7 @@ function App() {
               
               <div style={{width:'50px',height:'25px',border:'2px solid black',color:'red',backgroundColor:'white'}}>
               </div>
-              <div style={{width:'50px',height:'25px',border:'2px solid black',color:'blue',backgroundColor:'white"'}}>
+              <div style={{width:'50px',height:'25px',border:'2px solid black',color:'blue',backgroundColor:'white'}}>
               </div>
           </div>
               </div>
