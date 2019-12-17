@@ -46,7 +46,7 @@ function App() {
               {/* THE OTHER COLUMN WILL CHANGE BACKGROUND COLOR TO THE NAME OF THE COLOR YOU PRESSED */}
             </div>
 
-            <div style={{width:'50vw',height:'60vh', backgroundColor:'lightblue'}}>
+            <div style={{width:'50vw',height:'60vh', backgroundColor:'yellow'}}>
               {/* GHOSTS'S BOX */}
               <h1>Ghost Box</h1>
               {/* TRY SOME STUFF HERE */}
