@@ -52,9 +52,9 @@ function App() {
               {/* TRY SOME STUFF HERE */}
               
               <div style={{width:'100px',height:'50px',border:'2px solid black',color:'red'}}>
-            </div>
+              </div>
           </div>
-
+              </div>
         </div>
 
 
