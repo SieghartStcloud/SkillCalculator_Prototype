@@ -51,7 +51,9 @@ function App() {
               <h1>Ghost Box</h1>
               {/* TRY SOME STUFF HERE */}
               
-              <div style={{width:'100px',height:'50px',border:'2px solid black',color:'red'}}>
+              <div style={{width:'50px',height:'25px',border:'2px solid black',color:'red',backgroundColor:'white'}}>
+              </div>
+              <div style={{width:'50px',height:'25px',border:'2px solid black',color:'blue',backgroundColor:'white"'}}>
               </div>
           </div>
               </div>
