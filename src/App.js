@@ -50,7 +50,7 @@ function App() {
               {/* GHOSTS'S BOX */}
               <h1>Ghost Box</h1>
               {/* TRY SOME STUFF HERE */}
-
+                <div style={{width:'25vw',height:'30vh', backgroundColor:'lightblue'}}>
               {/* </div> */}
             </div>
           </div>
