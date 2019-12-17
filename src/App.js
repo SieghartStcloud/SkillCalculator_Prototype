@@ -51,7 +51,7 @@ function App() {
               <h1>Ghost Box</h1>
               {/* TRY SOME STUFF HERE */}
               
-              </div style=BOX{{width:'100px',height:'50px',border:'2px solid black',color:'red'}}>
+              </div style={{width:'100px',height:'50px',border:'2px solid black',color:'red'}}>
             </div>
           </div>
 
